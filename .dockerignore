@@ -2,3 +2,8 @@
 build
 node_modules
 README.md
+dist
+.git
+Dockerfile
+docker-compose.yml
+*.md
