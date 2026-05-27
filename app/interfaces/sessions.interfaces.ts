@@ -14,6 +14,9 @@ export enum CommitteeType {
   CE = "CE",
   CET = "CET",
   CT = "CT",
+  CCA = "CCA", //Comité Coordinador de Archivo
+  SCA = "SCA", //Subcomite de Adquisiciones 
+  COCODI = "COCODI", //COCODI
   SLF = "SLF",
   SA = "SA",
 }
@@ -24,6 +27,9 @@ export const CommitteeLabels: Record<CommitteeType, string> = {
   [CommitteeType.CE]: "Comisión Ejecutiva",
   [CommitteeType.CET]: "Comité de Ética",
   [CommitteeType.CT]: "Comité de Transparencia",
+  [CommitteeType.CCA]: "Comité Coordinador de Archivo",
+  [CommitteeType.SCA]: "Subcomite de Adquisiciones",
+  [CommitteeType.COCODI]: "COCODI",
   [CommitteeType.SLF]: "Sistema Local de Fiscalización",
   [CommitteeType.SA]: "Sistema de Archivos",
 };

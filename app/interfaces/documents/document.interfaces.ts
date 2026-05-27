@@ -13,6 +13,9 @@ export enum Area {
   CE = "CE", // Comisión Ejecutiva
   SEIP = "SEIP", // Secretaría Ejecutiva Informes y Programas
   CET = "CET", // Comité de Ética
+  CCA = "CCA", //Comité Coordinador de Archivo
+  SCA = "SCA", //Subcomite de Adquisiciones 
+  COCODI = "COCODI", //COCODI
   CON = "CON", // Convenios
 }
 
@@ -32,6 +35,9 @@ export const AreaLabels = {
   [Area.CE]: "Comisión Ejecutiva",
   [Area.SEIP]: "Secretaría Ejecutiva Informes y Programas",
   [Area.CET]: "Comité de Ética",
+  [Area.CCA]: "Comité Coordinador de Archivo",
+  [Area.SCA]: "Subcomite de Adquisiciones",
+  [Area.COCODI]: "COCODI",
   [Area.CON]: "Convenios",
 };
 

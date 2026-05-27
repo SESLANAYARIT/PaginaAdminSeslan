@@ -40,7 +40,10 @@ const AREA_TOPICOS: Record<Area, Topico[]> = {
   [Area.OG]: [Topico.INFORMES],
   [Area.CE]: [Topico.INFORMES],
   [Area.SEIP]: [Topico.INFORMES, Topico.PP],
-  [Area.CET]: [Topico.NORMAS],
+  [Area.CET]: [Topico.NORMAS, Topico.PP],
+  [Area.CCA]: [Topico.NORMAS, Topico.PP],
+  [Area.SCA]: [Topico.NORMAS, Topico.PP],
+  [Area.COCODI]: [Topico.NORMAS, Topico.PP],
   [Area.CON]: [Topico.CONVENIO, Topico.CC],
 };
 
